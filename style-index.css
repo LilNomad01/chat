@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,400&display=swap');
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h1{
+    position:relative;
+}
+body{
+    background:black;
+}
+.SideBar{
+    position: fixed;
+    width: 150px;
+    height: 100%;
+    flex-direction: column;
+    border-right: 1px solid  white;
+    padding: 20px 10px 20px 10px;
+    align-items: flex-start;
+    top: 0;
+    gap: 13px;
+}
+.SideBar>button{
+    padding-top: 5px;
+    position: relative;
+}
+button{
+    background-color: transparent;
+    text-decoration:none;
+    outline: none;
+    border: 0;
+}
+
+button:hover{
+    background-color: rgba(255 , 255 , 255, 0.3);
+    cursor: pointer;
+    border: 1px;
+    border-radius: 30px;
+    transition: all 0.3s;
+}
+button:hover>span{
+    color: black;
+
+}
+button:hover>i{
+    transform: scale(1.2);
+    color: #000000;
+}
+i{
+    color: #ffffff;
+}
+
+span{
+    padding: 15px 10px 0 12px;
+    align-items: center;
+    display: inline-block;
+    height: 40px;
+    color: whitesmoke;
+    display: inline-flex;
+}
+.Msg1{
+    color: aliceblue;
+    position: relative;
+    left: 50%;
+    width: 70;
+    height: 100%;
+    top: 10px;
+}
+footer{
+    color: black;
+}
+
+.AddInfRodaPe{
+    text-decoration: none;
+}
+.Cor{
+    color: black;
+}
+
+.RodaPe>footer>ul{
+    color: #000000;
+}
+.RodaPe>footer>ul>li{
+    gap: 5px;
+    padding: 2px;
+}
+.AddInfRodaPe>footer>ul>li>a{
+    outline: none;
+    text-decoration: none;
+}
