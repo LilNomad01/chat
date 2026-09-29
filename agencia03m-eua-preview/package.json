@@ -1,0 +1,8 @@
+{
+  "name": "agencia03m-us-ai-visibility-audit",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  }
+}
